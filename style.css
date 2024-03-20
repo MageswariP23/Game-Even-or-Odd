@@ -1,0 +1,65 @@
+body{
+    background: black;
+}
+.main{
+    height: 350px;
+    width: 900px;
+    margin: auto;
+    margin-top: 10%;
+}
+h1{
+    color: red;
+}
+#pl{
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    
+}
+.box{
+    height: 50px;
+    width: 680px;
+    border-width: 5px;
+    border:solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#player1,#player2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ci{
+    
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 5px;
+    
+}
+#re{
+    margin: auto;
+    background: red;
+    color:solid black;
+    width: 250px;
+    height: 34px;
+    text-align: center;
+    font-size: larger;
+    margin-top: 25px;
+}
+
+input[type="submit"]{
+    background: red;
+    color: black;
+    width: 90px;
+    height: 30px;
+    margin-top:35px;
+    margin-left: 235px;
+    justify-content: space-evenly;
+}
+#center{
+    display: flex;
+    color: white;
+    margin-top: -5px;
+}
